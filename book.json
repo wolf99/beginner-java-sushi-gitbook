@@ -1,13 +1,6 @@
 {
-"plugins": ["theme-coderdojosushicard"],
-"variables": {
-    /*** 
-    Replace HTML with the language or other subject you're writing about. 
-    
-    Check the list of subject names at http://dojo.soy/sushi-theme to make sure you're using the right name for the subject.
-    
-    If you don't see the subject you're looking for, create an issue at http://dojo.soy/theme-subject-request
-    ***/
-    "seriesSubject": "HTML"
-}
+    "plugins": ["theme-coderdojosushicard"],
+    "variables": {
+        "seriesSubject": "HTML"
+    }
 }
