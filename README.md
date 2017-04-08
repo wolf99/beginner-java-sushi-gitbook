@@ -7,9 +7,9 @@ Once you've followed all those instructions, you'll need to follow the instructi
 You need to do the following to get everything setup properly:  
 *[watch a video that walks through this setup](http://dojo.soy/gitbook-sushi-video)*
 
-1. Click on the black triangle at the top-right of the GitBook editor window and select *Edit Book Configuration*. Modify the `seriesSubject` variable (**do not translate the name of this or any other variable**) to match the subject you're writing about. Check out the [list](http://dojo.soy/sushi-theme) of subjects and, if you can't find a match, request it gets added to the theme by [adding a new issue](http://dojo.soy/theme-subject-request).  
+1. Click on **Files** in the left nav bar and, from the list of files that appear, choose `book.json`. Modify the `seriesSubject` variable (**do not translate the name of this or any other variable**) to match the subject you're writing about. Check out the [list](http://dojo.soy/sushi-theme) of subjects and, if you can't find a match, request it gets added to the theme by [adding a new issue](http://dojo.soy/theme-subject-request).  
   **Make sure you do this. The theme expects a valid value here and will break in a few places without it.**
-2. You now need to switch into the **Files** view. From there, navigate to `en/book.json` and make the following changes:
+2. From the left nav bar navigate to `en/book.json` and make the following changes:
    * Change the value of `title` to the title of your Sushi Card Series
    * Change the value of `seriesTitle` in `variables` to the same title of your Sushi Card Series 
 3. I have created this template on the assumption that you are writing in English. If so, you can skip this step. If you are writing in any other language, you will need to make a few more small changes:
