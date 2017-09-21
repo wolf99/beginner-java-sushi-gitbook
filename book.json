@@ -1,6 +1,6 @@
 {
     "plugins": ["theme-coderdojosushicard"],
     "variables": {
-        "seriesSubject": "HTML"
+        "seriesSubject": "Java"
     }
 }
