@@ -1,4 +1,4 @@
 # Summary
 
-* [Setting Up](1-setting-up.md)
+* [Setting Up2](1-setting-up.md)
 
