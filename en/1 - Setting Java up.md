@@ -16,6 +16,7 @@
    ```
 9. The JDK can currently be downloaded from the same link: [http://java.com/en/download/index.jsp](http://java.com/en/download/index.jsp).
 10. After downloading and installing, you may need to restart you computer again. When you do, you will have the Java Development Kit!
+11. One final step you will need to o to make using java easier is to add the install location of the JDK tools to your system's _Path_ **environment variable**. This is done differently on different systems so ask a mentor or do a web-search to find how to do this. On Microsoft Windows systems the location you add should look like `C:\Program Files\Java\jdk1.8.0\bin`, on Linux `/usr/lib/jvm`.
 
 
 
