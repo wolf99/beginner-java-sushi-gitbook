@@ -1,4 +1,4 @@
 # Summary
 
-* [Setting Up :coffee:](README.md)
+* [Setting Up](README.md)
 
