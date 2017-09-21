@@ -1,5 +1,4 @@
-#Summary
+# Summary
 
-* [Getting Setup](README.md)
-
+* [1 - Setting Java Up](README.md)
 
