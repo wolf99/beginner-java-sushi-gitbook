@@ -8,8 +8,8 @@
  }
  ```
 5. In between those curly braces (the `{` and `}`) we can add code that contains the data and functionality that we need to represent a chair, such as how many legs it has and the sound it might make when you sit down in it.
-6. In Java nearly everything is a class. For our first program we will created a file called `HelloWorld.java`. This means the class in the file should be called the same name. 
-7. Open your chosen editor and begin by saving a new blank file with the name `HelloWorld.java`. Be sure that the name is spelled correctly and has the correct case as this important for later on. The `.java` part is the** file extension**. Normally files saved in a text editor may be saved with a `.txt` extension so you will need to make sure the extension is definitely changed to `.java`.
+6. In Java nearly everything is a class. For our first program we will create a file called `HelloWorld.java`. This means the class in the file should be called the same name. 
+7. Open your chosen editor and begin by saving a new blank file with the name `HelloWorld.java`. Be sure that the name is spelled correctly and has the correct case as it is important that it matches the name of the class. The `.java` part is the** file extension**. Normally files saved in a text editor may be saved with a `.txt` extension so you will need to make sure the extension is definitely changed to `.java`.
 8. Because our filename is `HelloWorld.java`, our class will be called `HelloWorld`. Add the following code to your file in the text editor. For now, don't worry about what the `public` part means.
  ```java
  public class HelloWorld {
@@ -41,6 +41,17 @@
  ```bash
  javac HelloWorld.java
  ```
+17. If the command succeeds you will see a new file created in the same location called `HelloWorld.class`.
+18. To see this program in action we need to ask the JRE to run it for us. You can do this by using the following command in the terminal. Note that you should not include any extension for the name of the file you want to run but Java will know you mean the file with the `.class` extension.
+ ```bash
+ java HelloWorld
+ ```
+19. If everything goes correctly you should see the text we wanted to print out showing in the terminal. Like so:
+ ```bash
+ java HelloWorld
+ Hello world!
+ ```
+20. Try changing the code so that instead of saying hello to the world it says hello to you using your name. Good luck!
 
 
 
