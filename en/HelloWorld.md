@@ -48,7 +48,7 @@
  ```
 19. If everything goes correctly you should see the text we wanted to print out showing in the terminal. Like so:
  ```bash
- java HelloWorld
+java HelloWorld
  Hello world!
  ```
 20. Try changing the code so that instead of saying hello to the world it says hello to you using your name. Good luck!
