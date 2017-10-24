@@ -9,8 +9,8 @@
  ```java
  int myAge;
  ```
-Here, the type of the variable comes first, then the name of the variable, which is `myAge`. The is is followed by a semi-colon `;` to show that the statement stops here.
-8. To make use of this variable we can assign a value to it. To do this we use the `=` symbol.
+Here, the type of the variable comes first, then the name of the variable, which is `myAge`. The is followed by a semi-colon (`;`) to show that the statement stops here.
+8. To make use of this variable we can assign a value to it. To do this we use the equals symbol (`=`).
 
  ```java
  myAge = 14;
@@ -22,7 +22,7 @@ Here, the type of the variable comes first, then the name of the variable, which
  int myAge = 14;
  ```
  
-10. Add the following code to a new file called "MyAgeInt.java"
+10. Add the following code to a new file called `MyAgeInt.java`
 
  ```java
  public class MyAgeInt{
@@ -32,5 +32,5 @@ Here, the type of the variable comes first, then the name of the variable, which
      }
  }
  ```
-11. Compile MyAgeInt.java and then run MyAgeint to see the output.
+11. Compile `MyAgeInt.java` and then run `MyAgeInt` to see the output.
 12. Change the `myAge` variable to hold your real age and then save it and compile it and run it again.
