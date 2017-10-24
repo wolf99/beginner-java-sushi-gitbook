@@ -4,9 +4,9 @@
 
  ```java
    
-     public class HelloWorld {
+   public class HelloWorld {
 
-     }
+   }
  ```
 
 4. Then add the following between the two curly braces. Again, for now don't worry about what the `public static main (String args[])` part means, just note that it, and the curly braces are necessary to make the code work.
