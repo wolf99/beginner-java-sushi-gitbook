@@ -8,55 +8,51 @@
    }
    ```
 
-4. We can add code to this to print some text to the terminal, or as it is called in Java, the _console_.
+4. Then add the following between the two curly braces. Again, for now don't worry about what the `public static main (String args[])` part means, just note that it, and the curly braces are necessary to make the code work.
 
-5. Again, for now don't worry about what the `public static main (String args[])` part means for now, just note that it, and the curly braces are necessary to make the code work.
-
-   ```java
+ ```java
    public class HelloWorld {
      public static void main(String args[]) {
 
      }
    }
-   ```
+ ```
 
-6. In between this _second_ set of braces, we can add the code we want to do some work for us, in this case print some text to the console.
+5. In between this _second_ set of braces, we can add the code we want to do some work for us, in this case print some text to the terminal, or as it is called in Java, the _console_.
 
-7. Now we can add the code that does the work! Do this with one more line of code:
+6. Now we can add the code that does the work! Do this with one more line of code:
 
-   ```java
+ ```java
    public class HelloWorld {
      public static void main(String args[]) {
        System.out.println("Hello world!");
      }
    }
-   ```
+ ```
 
-8. This code asks the system to print out a line of text for us. The text we ask it to print out is `Hello world!`.
+7. This code asks the system to print out a line of text for us. The text we ask it to print out is `Hello world!`.
 
-9. To make this file with our Java code into a program we need to **compile** it. We have a tool in the JRE that will do this for us called `javac`.
-10. To use `javac` open a terminal and navigate to the Java file. Then use the following command:
+8. To make this file with our Java code into a program we need to **compile** it. We have a tool in the JRE that will do this for us called `javac`.
 
-    ```bash
-    javac HelloWorld.java
-    ```
+9. To use `javac` open a terminal and navigate to the Java file. Then use the following command:
 
-11. If the command succeeds you will see a new file created in the same location called `HelloWorld.class`.
+ ```bash
+ javac HelloWorld.java
+ ```
 
-12. To see this program in action we need to ask the JRE to run it for us. You can do this by using the following command in the terminal. Note that you should not include any extension for the name of the file you want to run but Java will know you mean the file with the `.class` extension.
+10. If the command succeeds you will see a new file created in the same location called `HelloWorld.class`.
 
-    ```bash
-    java HelloWorld
-    ```
+11. To see this program in action we need to ask the JRE to run it for us. You can do this by using the following command in the terminal. Note that you should not include any extension for the name of the file you want to run but Java will know you mean the file with the `.class` extension.
 
-13. If everything goes correctly you should see the text we wanted to print out showing in the terminal. Like so:
+ ```bash
+ java HelloWorld
+ ```
 
-    ```bash
-    java HelloWorld
-    Hello world!
-    ```
+12. If everything goes correctly you should see the text we wanted to print out showing in the terminal. Like so:
 
-14. Try changing the code so that instead of saying hello to the world it says hello to you using your name. Good luck!
+ ```bash
+ java HelloWorld
+ Hello world!
+ ```
 
-
-
+13. Try changing the code so that instead of saying hello to the world it says hello to you using your name. Good luck!
