@@ -1,58 +1,62 @@
 1. To write some Java code we can use a simple **text editor**, such as Notepad. If you already have an **integrated development environment** \(IDE\) that you would like to use, you can use that also but it is not required. 
-6. For our first program we will create a file called `HelloWorld.java`. Open your chosen editor and begin by saving a new blank file with the name `HelloWorld.java`. Be sure that the name is spelled correctly and has the correct case as it is important that it matches. The `.java` part is the** file extension**. Normally files saved in a text editor may be saved with a `.txt` extension so you will need to make sure the extension is definitely changed to `.java`.
-8. Add the following code to your file in the text editor. For now, don't worry about what this means, just ensure that the `HelloWorld` part matches the file name exactly.
+2. For our first program we will create a file called `HelloWorld.java`. Open your chosen editor and begin by saving a new blank file with the name `HelloWorld.java`. Be sure that the name is spelled correctly and has the correct case as it is important that it matches. The `.java` part is the** file extension**. Normally files saved in a text editor may be saved with a `.txt` extension so you will need to make sure the extension is definitely changed to `.java`.
+3. Add the following code to your file in the text editor. For now, don't worry about what this means, just ensure that the `HelloWorld` part matches the file name exactly.
 
- ```java
- public class HelloWorld {
+   ```java
+   public class HelloWorld {
 
- }
- ```
+   }
+   ```
 
-9. We can add code to this to print some text to the terminal, or as it is called in Java, the _console_.
-11. Again, for now don't worry about what the `public static main (String args[])` part means for now, just note that it, and the curly braces are necessary to make the code work.
+4. We can add code to this to print some text to the terminal, or as it is called in Java, the _console_.
 
- ```java
- public class HelloWorld {
+5. Again, for now don't worry about what the `public static main (String args[])` part means for now, just note that it, and the curly braces are necessary to make the code work.
+
+   ```java
+   public class HelloWorld {
      public static void main(String args[]) {
-     
+
      }
- }
- ```
+   }
+   ```
 
-12. In between this _second_ set of braces, we can add the code we want to do some work for us, in this case print some text to the console.
-13. Now we can add the code that does the work! Do this with one more line of code:
+6. In between this _second_ set of braces, we can add the code we want to do some work for us, in this case print some text to the console.
 
- ```java
- public class HelloWorld {
+7. Now we can add the code that does the work! Do this with one more line of code:
+
+   ```java
+   public class HelloWorld {
      public static void main(String args[]) {
-         System.out.println("Hello world!");
+       System.out.println("Hello world!");
      }
- }
- ```
+   }
+   ```
 
-14. This code asks the system to print out a line of text for us. The text we ask it to print out is `Hello world!`.
-15. To make this file with our Java code into a program we need to **compile** it. We have a tool in the JRE that will do this for us called `javac`.
-16. To use `javac` open a terminal and navigate to the Java file. Then use the following command:
+8. This code asks the system to print out a line of text for us. The text we ask it to print out is `Hello world!`.
 
- ```bash
- javac HelloWorld.java
- ```
+9. To make this file with our Java code into a program we need to **compile** it. We have a tool in the JRE that will do this for us called `javac`.
+10. To use `javac` open a terminal and navigate to the Java file. Then use the following command:
 
-17. If the command succeeds you will see a new file created in the same location called `HelloWorld.class`.
-18. To see this program in action we need to ask the JRE to run it for us. You can do this by using the following command in the terminal. Note that you should not include any extension for the name of the file you want to run but Java will know you mean the file with the `.class` extension.
+    ```bash
+    javac HelloWorld.java
+    ```
 
-  ```bash
- java HelloWorld
- ```
- 
-19. If everything goes correctly you should see the text we wanted to print out showing in the terminal. Like so:
+11. If the command succeeds you will see a new file created in the same location called `HelloWorld.class`.
 
- ```bash
- java HelloWorld
-  Hello world!
- ```
+12. To see this program in action we need to ask the JRE to run it for us. You can do this by using the following command in the terminal. Note that you should not include any extension for the name of the file you want to run but Java will know you mean the file with the `.class` extension.
 
-20. Try changing the code so that instead of saying hello to the world it says hello to you using your name. Good luck!
+    ```bash
+    java HelloWorld
+    ```
+
+13. If everything goes correctly you should see the text we wanted to print out showing in the terminal. Like so:
+
+    ```bash
+    java HelloWorld
+    Hello world!
+    ```
+
+14. Try changing the code so that instead of saying hello to the world it says hello to you using your name. Good luck!
 
 
 
