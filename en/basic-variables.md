@@ -1,15 +1,36 @@
 1. In Java the most basic way to store data is in a **variable**.
-2. A variable is simply a place in the computer's memory that is reserved for us to put our data. To access that space, we need an easy way to refer to it. To do that we give the variable a **name**.
-3. We also need to tell the program what **type** of data we would like to put in the space. Java has several basic (_primitive_)
-4. The following types all hold a single integer each. an integer is a whole number or what mathematicians call "natural numbers" (e.g. -1, 0, 1, or 2, etc).
- - `byte` - an 8-bit number
- - `short` - a short integer number
- - `int` - an integer number
- - `long` - a large integer number
-5. There are two data types that hold numbers with a decimal point, that is what mathematicians call a "real number" (e.g. -1.2345, 0, 1.0 or 3.14159, etc)
- - `float` - a single-precision floating-point number
- - `double` - double-precision floating-point number
-6. There is one data type called a `boolean`. This type holds either `true` or `false`.
-7. There is one data type called a `char`. This can hold a single character, a letter, such as 'r' or 'T'.
-8. To create one of these variables we **declare** it.
-9. To declare a variable we type that data type, followed by the name. We need to do this before we can use the variable but once it is done once we don't need to do it again:
+2. A variable is simply a place in the computer's memory that we reserve to hold data for us. To access that space, we need an easy way to refer to it. To do that we give the variable a **name**.
+3. We also need to tell the program what **type** of data we would like to put in the space. Java has several basic (_primitive_) data types. The easiest to begin with is an **integer**.
+4. An integer is a whole number, or what mathematicians call a "natural number". That is, a positive or negative number without a decimal point (e.g. -3 or 0 or 1 or 16, etc).
+5. In Java the integer type is denoted by the keyword `int`.
+6. To create a variable we **declare** it.
+7. To declare a variable we type the data type (in this case `int`), followed by the name. We need to do this before we can use the variable but once it is done once we don't need to do it again:
+
+ ```java
+ int myAge;
+ ```
+Here, the type of the variable comes first, then the name of the variable, which is `myAge`. The is is followed by a semi-colon `;` to show that the statement stops here.
+8. To make use of this variable we can assign a value to it. To do this we use the `=` symbol.
+
+ ```java
+ myAge = 14;
+ ```
+
+9. It is common, though not necessary, to combine the declaration and assignment into a single statement, called a _definition_, like so:
+
+ ```java
+ int myAge = 14;
+ ```
+ 
+10. Add the following code to a new file called "MyAgeInt.java"
+
+ ```java
+ public class MyAgeInt{
+     public static void main(String args[]){
+       int myAge = 12;
+       System.out.println("My age is: " + myAge);
+     }
+ }
+ ```
+11. Compile MyAgeInt.java and then run MyAgeint to see the output.
+12. Change the `myAge` variable to hold your real age and then save it and compile it and run it again.
