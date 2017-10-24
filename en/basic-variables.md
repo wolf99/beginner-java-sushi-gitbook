@@ -13,19 +13,3 @@
 7. There is one data type called a `char`. This can hold a single character, a letter, such as 'r' or 'T'.
 8. To create one of these variables we **declare** it.
 9. To declare a variable we type that data type, followed by the name. We need to do this before we can use the variable but once it is done once we don't need to do it again:
-
-```java
-int myAge;
-```
-
-10. To make use of this variable we can _define_ its value by assigning the value to it. To do this we use the `=` symbol.
-
-```java
-myAge = 14;
-```
-
-11. It is common, though not necessary, to combine the declaration and definition into a single statement like so:
-
-```java
-int myAge = 14;
-```
