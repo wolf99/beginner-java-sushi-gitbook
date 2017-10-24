@@ -27,12 +27,13 @@
 10. Add the following code to a new file called `MyAgeInt.java`
 
  ```java
-    public class MyAgeInt{
-      public static void main(String args[]){
-        int myAge = 12;
-        System.out.println("My age is: " + myAge);
-      }
-    }
+ 
+   public class MyAgeInt{
+     public static void main(String args[]){
+       int myAge = 12;
+       System.out.println("My age is: " + myAge);
+     }
+   }
  ```
 
 11. Compile `MyAgeInt.java` and then run `MyAgeInt` to see the output.
