@@ -2,11 +2,11 @@
 2. For our first program we will create a file called `HelloWorld.java`. Open your chosen editor and begin by saving a new blank file with the name `HelloWorld.java`. Be sure that the name is spelled correctly and has the correct case as it is important that it matches. The `.java` part is the** file extension**. Normally files saved in a text editor may be saved with a `.txt` extension so you will need to make sure the extension is definitely changed to `.java`.
 3. Add the following code to your file in the text editor. For now, don't worry about what this means, just ensure that the `HelloWorld` part matches the file name exactly.
 
- ```java
-   public class HelloWorld {
+   ```java
+     public class HelloWorld {
 
-   }
- ```
+     }
+   ```
 
 4. Then add the following between the two curly braces. Again, for now don't worry about what the `public static main (String args[])` part means, just note that it, and the curly braces are necessary to make the code work.
 
