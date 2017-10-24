@@ -6,34 +6,34 @@
 6. To create a variable we **declare** it.
 7. To declare a variable we type the data type \(in this case `int`\), followed by the name. We need to do this before we can use the variable but once it is done once we don't need to do it again:
 
-   ```java
-   int myAge;
-   ```
+ ```java
+ int myAge;
+ ```
 
    Here, the type of the variable comes first, then the name of the variable, which is `myAge`. The is followed by a semi-colon \(`;`\) to show that the statement stops here.
 
 8. To make use of this variable we can assign a value to it. To do this we use the equals symbol \(`=`\).
 
-   ```java
-   myAge = 14;
-   ```
+ ```java
+ myAge = 14;
+ ```
 
 9. It is common, though not necessary, to combine the declaration and assignment into a single statement, called a _definition_, like so:
 
-   ```java
-   int myAge = 14;
-   ```
+ ```java
+ int myAge = 14;
+ ```
 
 10. Add the following code to a new file called `MyAgeInt.java`
 
-    ```java
+ ```java
     public class MyAgeInt{
       public static void main(String args[]){
         int myAge = 12;
         System.out.println("My age is: " + myAge);
       }
     }
-    ```
+ ```
 
 11. Compile `MyAgeInt.java` and then run `MyAgeInt` to see the output.
 12. Change the `myAge` variable to hold your real age and then save it and compile it and run it again.
