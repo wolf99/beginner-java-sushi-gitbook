@@ -2,5 +2,5 @@
 
 * [Setting Up](README.md)
 * [Hello world!](HelloWorld.md)
-* [Basic variables](basic-variables.md)
+* [Basic variables - Integers](basic-variables.md)
 
