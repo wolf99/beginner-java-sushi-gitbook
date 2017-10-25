@@ -7,7 +7,7 @@
    float myHeight;
    ```
 
-   Here, the type of the variable comes first, then the name of the variable, which is `myHeight`. The is followed by a semi-colon \(`;`\) to show that the statement stops here.
+   Here, the type of the variable comes first, then the **name** of the variable, which is `myHeight`. The is followed by a semi-colon \(`;`\) to show that the statement stops here.
 5. Again, to make use of this variable we can **assign** a value to it using the equals symbol \(`=`\).
 
    ```java

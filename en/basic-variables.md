@@ -11,13 +11,13 @@
    ```
 
    Here, the type of the variable comes first, then the name of the variable, which is `myAge`. The is followed by a semi-colon \(`;`\) to show that the statement stops here.
-8. To make use of this variable we can assign a value to it. To do this we use the equals symbol \(`=`\).
+8. To make use of this variable we can **assign** a value to it. To do this we use the equals symbol \(`=`\).
 
    ```java
    myAge = 14;
    ```
 
-9. It is common, though not necessary, to combine the declaration and assignment into a single statement, called a _definition_, like so:
+9. It is common, though not necessary, to combine the declaration and assignment into a single statement, called a **definition**, like so:
 
    ```java
    int myAge = 14;
