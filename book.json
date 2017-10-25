@@ -1,5 +1,5 @@
 {
-    "plugins": ["theme-coderdojosushicard", "advanced-emoji"],
+    "plugins": ["theme-coderdojosushicard"],
     "variables": {
         "seriesSubject": "Java"
     }
