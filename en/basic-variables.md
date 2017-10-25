@@ -28,7 +28,7 @@
 
     ```java
     public class MyAgeInt{
-      public static void main(String args[]){
+      public static void main(String[] args){
         int myAge = 12;
         System.out.println("My age is: " + myAge);
       }
