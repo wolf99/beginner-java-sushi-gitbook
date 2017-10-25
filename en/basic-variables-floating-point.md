@@ -11,13 +11,13 @@
 5. Again, to make use of this variable we can **assign** a value to it using the equals symbol \(`=`\).
 
    ```java
-   myHeight= 1.5;
+   myHeight = 1.5;
    ```
 
 6. Again it is possible to combine the declaration and assignment into a single statement, called a **definition**, like so:
 
    ```java
-   int myHeight= 1.5;
+   int myHeight = 1.5;
    ```
 
 10. Add the following code to a new file called `MyHeight.java`
