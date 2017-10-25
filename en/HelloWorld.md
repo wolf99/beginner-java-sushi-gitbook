@@ -8,11 +8,11 @@
    }
    ```
 
-4. Then add the following between the two curly braces. Again, for now don't worry about what the `public static main (String args[])` part means, just note that it, and the curly braces are necessary to make the code work.
+4. Then add the following between the two curly braces. Again, for now don't worry about what the `public static main (String[] args)` part means, just note that it, and the curly braces are necessary to make the code work.
 
    ```java
    public class HelloWorld {
-     public static void main(String args[]) {
+     public static void main(String[] args) {
 
      }
    }
@@ -24,7 +24,7 @@
 
    ```java
    public class HelloWorld {
-     public static void main(String args[]) {
+     public static void main(String[] args) {
        System.out.println("Hello world!");
      }
    }
