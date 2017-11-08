@@ -24,10 +24,10 @@
    int myAge = 14;
    ```
 
-10. Add the following code to a new file called `BasicInt.java`
+10. Add the following code to a new file called `FirstInt.java`
 
     ```java
-    public class BasicInt{
+    public class FirstInt{
       public static void main(String[] args){
         int myAge = 12;
         System.out.println("My age is: " + myAge);
@@ -35,5 +35,5 @@
     }
     ```
 
-11. Compile `BasicInt.java` and then run `BasicInt` to see the output.
+11. Compile `FirstInt.java` and then run `FirstInt` to see the output.
 12. Change the `myAge` variable to hold your real age and then save it and compile it and run it again.

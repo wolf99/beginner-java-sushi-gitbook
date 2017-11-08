@@ -21,10 +21,10 @@
    int myHeight = 1.5;
    ```
 
-10. Add the following code to a new file called `BasicFloat.java`
+10. Add the following code to a new file called `FirstFloat.java`
 
     ```java
-    public class BasicFloat{
+    public class FirstFloat{
       public static void main(String[] args){
         int myHeight = 2.3;
         System.out.println("My height is " + myHeight + " meters");
@@ -32,5 +32,5 @@
     }
     ```
 
-11. Compile `BasicFloat.java` and then run `BasicFloat` to see the output.
+11. Compile `FirstFloat.java` and then run `FirstFloat` to see the output.
 12. Change the `MyHeight` variable to hold your real height in meters and then save it and compile it and run it again.

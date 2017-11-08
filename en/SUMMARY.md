@@ -2,7 +2,7 @@
 
 * [Setting Up](README.md)
 * [Hello World!](HelloWorld.md)
-* [Basic Variables - Integers](basic-variables.md)
-* [Basic Variables - Floating Point](basic-variables-floating-point.md)
-* [Basic Variables - Boolean](basic-variables-boolean.md)
+* [First Variables - Integers](first-variables.md)
+* [First Variables - Floating Point](first-variables-floating-point.md)
+* [First Variables - Boolean](first-variables-boolean.md)
 

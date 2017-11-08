@@ -20,10 +20,10 @@
    boolean isThisASushiCard = true;
    ```
 
-10. Add the following code to a new file called `BasicBoolean.java`
+10. Add the following code to a new file called `FirstBoolean.java`
 
     ```java
-    public class BasicBoolean{
+    public class FirstBoolean{
       public static void main(String[] args){
         boolean isThisASushiCard = true;
         System.out.println("It is " + isThisASushiCard + " that this is a sushi card");
@@ -31,5 +31,5 @@
     }
     ```
 
-11. Compile `BasicBoolean.java` and then run `BasicBoolean` to see the output.
+11. Compile `FirstBoolean.java` and then run `FirstBoolean` to see the output.
 12. Try changing the value of the Boolean and the text to make a funny sentence and then save it and compile it and run it again.
