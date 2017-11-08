@@ -7,23 +7,24 @@
    float myHeight;
    ```
 
-   Here, the type of the variable comes first, then the **name** of the variable, which is `myHeight`. The is followed by a semi-colon \(`;`\) to show that the statement stops here.
-5. Again, to make use of this variable we can **assign** a value to it using the equals symbol \(`=`\).
+   Here, the type of the variable comes first, then the **name** of the variable, which is `myHeight`. The name is followed by a semi-colon \(`;`\) to show that the statement stops here.
+5. To make use of this variable we can **assign** a value to it using the equals symbol \(`=`\).
 
    ```java
+   float myHeight;
    myHeight = 1.5;
    ```
 
-6. Again it is possible to combine the declaration and assignment into a single statement, called a **definition**, like so:
+6. It is possible to combine the declaration and assignment into a single statement, called a **definition**, like so:
 
    ```java
    int myHeight = 1.5;
    ```
 
-10. Add the following code to a new file called `MyHeight.java`
+10. Add the following code to a new file called `BasicFloat.java`
 
     ```java
-    public class MyHeight{
+    public class BasicFloat{
       public static void main(String[] args){
         int myHeight = 2.3;
         System.out.println("My height is " + myHeight + " meters");
@@ -31,5 +32,5 @@
     }
     ```
 
-11. Compile `MyHeight.java` and then run `MyHeight` to see the output.
+11. Compile `BasicFloat.java` and then run `BasicFloat` to see the output.
 12. Change the `MyHeight` variable to hold your real height in meters and then save it and compile it and run it again.
