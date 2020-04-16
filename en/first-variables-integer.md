@@ -1,8 +1,10 @@
+# first-variables-integer
+
 1. In Java the most basic way to store data is in a **variable**.
 2. A variable is simply a place in the computer's memory that we reserve to hold data for us. To access that space, we need an easy way to refer to it. To do that we give the variable a **name**.
 3. We also need to tell the program what **type** of data we would like to put in the space. Java has several basic \(_primitive_\) data types. The easiest to begin with is an **integer**.
 4. An integer is a whole number, or what mathematicians call a "natural number". That is, any positive or negative number or zero, without a decimal point \(e.g. -3 or 0 or 1 or 16, etc\).
-5. In Java the integer type is denoted by the keyword `int` (note that Java has 3 other whole number types, `byte`, `short` and `long`, but we won't worry about those yet).
+5. In Java the integer type is denoted by the keyword `int` \(note that Java has 3 other whole number types, `byte`, `short` and `long`, but we won't worry about those yet\).
 6. To create a variable we **declare** it.
 7. To declare a variable we type the data type \(in this case `int`\), followed by the name. We need to do this before we can use the variable but once it is done once we don't need to do it again:
 
@@ -11,6 +13,7 @@
    ```
 
    Here, the type of the variable comes first, then the name of the variable, which is `myAge`. The name is followed by a semi-colon \(`;`\) to show that the statement stops here.
+
 8. To make use of this variable we can **assign** a value to it. To do this we use the equals symbol \(`=`\).
 
    ```java
@@ -37,3 +40,4 @@
 
 11. Compile `FirstInt.java` and then run `FirstInt` to see the output.
 12. Change the `myAge` variable to hold your real age and then save it and compile it and run it again.
+

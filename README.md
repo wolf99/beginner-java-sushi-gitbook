@@ -10,7 +10,9 @@ You need to do the following to get everything setup properly:
 [_watch a video that walks through this setup_](http://dojo.soy/gitbook-sushi-video)
 
 1. Click on **Files** in the left nav bar and, from the list of files that appear, choose `book.json`. Modify the `seriesSubject` variable \(**do not translate the name of this or any other variable**\) to match the subject you're writing about. Check out the [list](http://dojo.soy/sushi-theme) of subjects and, if you can't find a match, request it gets added to the theme by [adding a new issue](http://dojo.soy/theme-subject-request).  
+
    **Make sure you do this. The theme expects a valid value here and will break in a few places without it.**
+
 2. From the left nav bar navigate to `en/book.json` and make the following changes:
    * Change the value of `title` to the title of your Sushi Card Series
    * Change the value of `seriesTitle` in `variables` to the same title of your Sushi Card Series 
@@ -23,6 +25,4 @@ You need to do the following to get everything setup properly:
    * [How to write Sushi Cards in GitBook](http://dojo.soy/write-gitbook-sushi)
    * [Guidelines on writing Sushi Cards in general](http://dojo.soy/write-sushi)
    * [Sharing your Content with the community](http://dojo.soy/share-content)
-
-
 
